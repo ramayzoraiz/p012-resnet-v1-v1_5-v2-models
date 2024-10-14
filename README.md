@@ -1,5 +1,5 @@
 # p012-resnet-v1-v1_5-v2-models
-This repo contains scripts that generate resnet models (v1, v1.5, v2) using both tensorflow and pytorch frameworks.
+This repo contains python modules(files) that generate resnet models (v1, v1.5, v2) using both tensorflow and pytorch frameworks. Models ResNet18v1, Resnet34v1, ResNet34v2, ResNet50v1, ResNet50v1.5 and ResNet50v2 are generated using these modules.
 ## Repo Files Info
 In tensorflow, [tf_resnet.py](tf_resnet.py) contains 4 functions for the implementation of renets with any layers and versions. ResNet18, 34, 50 model generation functions have been made using 4 functions but you can easily make functions for resnet 101 or number of layers of your choice. \
 Similarly in pytorch, [torch_resnet.py](torch_resnet.py) contains 3 classes from which you can make different layers and versions of ResNet. As a example, ResNet18, 34, 50 model generation functions are made using 3 classes. \
